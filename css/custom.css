@@ -38,3 +38,13 @@ body, html {
 #microfono {
     width: 100%;
 }
+
+#salida {
+    width: 82.24%;
+    margin-top: 20px;
+}
+
+#salida p {
+    background-color: black;
+    color: white;
+}

@@ -11,12 +11,12 @@ const verNotificacion = document.querySelector('#verNotificacion');
 verNotificacion.addEventListener('click', () => {
     if(Notification.permission === 'granted'){
         const notificacion = new Notification('Notificacion desde JS.', {
-            icon: 'img/ccj.png',
+            icon: 'img/DVs07.png',
             body: 'Esto es una notificacion'
         });
 
         notificacion.onclick = () => {
-            window.open('https://www.github.com/DVs07');
+            window.open('viaje.html');
         }
     }
 })

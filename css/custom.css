@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.contenido {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+/* Primera línea de botones */
+.botones .linea-1,
+.botones .linea-2 {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    width: 150px; /* Ajusta este valor según sea necesario */
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+#microfono {
+    width: 100%;
+}
